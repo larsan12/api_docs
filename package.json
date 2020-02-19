@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chalk": "^2.4.1",
+    "commander": "^2.9.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "openapi-snippet": "^0.7.1",
+    "swagger-repo": "^2.0.0-rc.15"
+  },
+  "private": true,
+  "scripts": {
+    "prod": "node index.js prod",
+    "dev": "node index.js dev",
+    "build": "node index.js build"
+  }
+}

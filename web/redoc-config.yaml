@@ -1,0 +1,8 @@
+expandResponses: 'all'
+jsonSampleExpandLevel: 10
+expandDefaultServerVariables: true
+noAutoAuth: true
+theme:
+  colors:
+    primary:
+      main: '#32329f'
